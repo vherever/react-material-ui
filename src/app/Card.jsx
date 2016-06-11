@@ -4,9 +4,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
 
-var Grid = require('react-bootstrap/lib/Grid');
-var Row = require('react-bootstrap/lib/Row');
-var Col = require('react-bootstrap/lib/Col');
+import {Grid, Row, Col} from 'react-bootstrap';
 
 
 
@@ -21,7 +19,7 @@ const muiTheme = getMuiTheme({
 
 });
 
-class Main extends Component {
+class CardInstance extends Component {
     constructor(props, context) {
         super(props, context);
     }
@@ -67,4 +65,4 @@ class Main extends Component {
     }
 }
 
-export default Main;
+export default CardInstance;

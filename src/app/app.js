@@ -1,7 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
 import injectTapEventPlugin from 'react-tap-event-plugin';
-import Main from './Card.jsx'; // Our custom react component
+import Main from './Main.jsx'; // Our custom react component
 
 
 // Needed for onTouchTap
